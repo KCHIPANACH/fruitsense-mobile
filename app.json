@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "FruitSense",
+    "slug": "fruitsense",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#F6FBF3"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {},
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "FruitSense necesita acceder a tus fotos para analizar la fruta.",
+          "cameraPermission": "FruitSense necesita la camara para tomar fotos de la fruta."
+        }
+      ],
+      "expo-asset"
+    ]
+  }
+}
