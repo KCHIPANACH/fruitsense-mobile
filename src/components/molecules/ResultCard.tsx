@@ -18,7 +18,7 @@ export const ResultCard: React.FC<{ result: Prediction }> = ({ result }) => {
         <AppText variant="h1">🤔</AppText>
         <AppText variant="h2" color={colors.orange}>No estoy seguro</AppText>
         <AppText color={colors.textMuted} style={styles.center}>
-          No reconozco una fruta con seguridad. Probá con una foto más clara y de cerca 📸
+          No reconozco una fruta con seguridad. Intenta con una foto más clara y de cerca 📸
         </AppText>
         <AppText variant="caption" color={colors.textMuted}>Confianza: {pct}%</AppText>
       </Card>
